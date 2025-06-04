@@ -68,6 +68,10 @@ const { title } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
+              <div class="mx-2">
+                <SwitchTheme />
+              </div>
+              <DashboardLogout />
             </div>
           </div>
         </div>
