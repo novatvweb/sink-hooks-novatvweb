@@ -12,13 +12,13 @@ const { title } = useAppConfig()
       <div
         class="container relative flex flex-wrap items-center justify-between h-24 px-0 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center"
       >
-        <div class="flex items-center justify-start w-1/4 h-full pr-4">
+        <div class="flex items-center justify-start md:w-2/4 w-full h-full pr-4">
           <a
             href="/"
             :title="title"
-            class="flex items-center p-4 px-6 space-x-2 text-xl font-black bg-[#b71918] text-white"
+            class="flex items-center md:p-4 p-2 px-6 space-x-2 md:text-xl text-base font-black bg-[#b71918] text-white"
           >
-            <svg width="130" height="16" viewBox="0 0 130 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="md:w-32 w-24" width="130" height="16" viewBox="0 0 130 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M40.932 6.11255H37.3138V9.75578H40.932V6.11255Z" fill="white" />
               <path d="M103.519 12.2875H99.9008V15.9307H103.519V12.2875Z" fill="white" />
               <path d="M13.6258 7.84687C13.6258 1.88333 10.4726 0 5.51782 0H0V15.876H5.11219C10.6976 15.876 13.6258 13.812 13.6258 7.84687ZM9.14424 7.91458C9.14424 11.0677 8.0863 12.1109 5.36145 12.1109H4.41343V3.7651H5.49511C8.22099 3.7651 9.14424 4.98958 9.14424 7.91458Z" fill="white" />
@@ -36,7 +36,7 @@ const { title } = useAppConfig()
         </div>
 
         <div
-          class="top-0 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex"
+          class="top-0 left-0 items-start w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-2/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex"
           :class="{ 'flex fixed': showMenu, 'hidden': !showMenu }"
           @touchmove.prevent
         >
