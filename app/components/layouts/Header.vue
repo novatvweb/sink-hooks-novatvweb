@@ -67,14 +67,13 @@ const { title } = useAppConfig()
               class="flex flex-col items-center justify-end w-full pt-4 md:items-center md:flex-row md:py-0"
             >
               <a
-                class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 border-transparent"
+                class="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-4 py-2 bg-black text-white hover:bg-gray-800 border-2 mr-2 border-transparent"
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
-              <div class="m-2 md:mx-2">
-                <SwitchTheme />
-              </div>
-              <div class="m-2 p-4 md:p-0 md:m-0">
+              <SwitchLanguage />
+              <SwitchTheme />
+              <div class="m-2 p-4 md:p-0 md:m-0 md:ml-3">
                 <DashboardLogout />
               </div>
             </div>

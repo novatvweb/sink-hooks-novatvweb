@@ -1,0 +1,180 @@
+{
+  "common": {
+    "i18n": "Višejezično",
+    "abbreviations": "Hr",
+    "current_language": "Hrvatski",
+    "try_again": "Pokušaj ponovo",
+    "cancel": "Odustani",
+    "continue": "Nastavi",
+    "close": "Zatvori",
+    "save": "Spremi",
+    "edit": "Uredi",
+    "delete": "Izbriši",
+    "delete_success": "Uspješno izbrisano!",
+    "search": "Pretraži"
+  },
+  "theme": {
+    "toggle": "Promijeni temu",
+    "light": "Svijetla",
+    "dark": "Tamna",
+    "system": "Sustav"
+  },
+  "login": {
+    "title": "Prijava",
+    "description": "Unesite svoj token stranice za prijavu",
+    "tips": "Savjeti",
+    "preview_token": "Token stranice za pregled je",
+    "submit": "Prijava",
+    "failed": "Prijava neuspješna, pokušajte ponovo"
+  },
+  "logout": {
+    "title": "Odjava?",
+    "confirm": "Jeste li sigurni da se želite odjaviti?",
+    "action": "Odjava"
+  },
+  "layouts": {
+    "footer": {
+      "copyright": "Proizvodi HTML.ZONE",
+      "social": {
+        "email": "E-pošta",
+        "telegram": "Telegram",
+        "blog": "Blog",
+        "twitter": "Twitter",
+        "mastodon": "Mastodon",
+        "github": "GitHub"
+      }
+    },
+    "header": {
+      "select_language": "Odaberi jezik"
+    }
+  },
+  "nav": {
+    "links": "Linkovi",
+    "analysis": "Analiza",
+    "realtime": "U stvarnom vremenu"
+  },
+  "home": {
+    "features": {
+      "title": "Značajke",
+      "subtitle": "Jednostavna i dovoljna funkcionalnost",
+      "url_shortening": {
+        "title": "Skraćivanje URL-a",
+        "description": "Sažmite svoje URL-ove na minimalnu duljinu"
+      },
+      "analytics": {
+        "title": "Analitika",
+        "description": "Pratite analitiku linkova i prikupljajte korisne statistike"
+      },
+      "serverless": {
+        "title": "Bez poslužitelja",
+        "description": "Implementirajte bez potrebe za tradicionalnim poslužiteljima"
+      },
+      "customizable_slug": {
+        "title": "Prilagodljiv Slug",
+        "description": "Podrška za personalizirane slugove i osjetljivost na velika i mala slova"
+      },
+      "ai_slug": {
+        "title": "AI Slug",
+        "description": "Iskoristite AI za generiranje slugova"
+      },
+      "link_expiration": {
+        "title": "Istek linka",
+        "description": "Postavite datume isteka za svoje linkove"
+      }
+    },
+    "cta": {
+      "title": "Implementacija odmah",
+      "description": "Sa samo nekoliko jednostavnih klikova, možete započeti implementaciju bez ikakvih troškova",
+      "button": "Započni implementaciju"
+    },
+    "logos": {
+      "title": "Izgrađeno s izvrsnim tehnologijama"
+    },
+    "twitter": {
+      "follow": "Pratite me na X (Twitteru)"
+    }
+  },
+  "dashboard": {
+    "title": "Nadzorna ploča",
+    "visits": "Posjeti",
+    "views": "Pregledi",
+    "visitors": "Posjetitelji",
+    "referers": "Refereri",
+    "stats": "Statistika",
+    "custom_date": "Prilagođeni datum",
+    "date": "Datum",
+    "date_range": "Raspon datuma",
+    "locations": "Lokacije",
+    "details": "Detalji",
+    "name": "Naziv",
+    "count": "Broj",
+    "loading": "Učitavanje",
+    "no_data": "Nema podataka",
+    "none": "(Nijedan)",
+    "filter_placeholder": "Filtriraj linkove...",
+    "date_picker": {
+      "today": "Danas",
+      "last_24h": "Zadnja 24 sata",
+      "this_week": "Ovaj tjedan",
+      "last_7d": "Zadnjih 7 dana",
+      "this_month": "Ovaj mjesec",
+      "last_30d": "Zadnjih 30 dana",
+      "last_90d": "Zadnjih 90 dana",
+      "custom": "Prilagođeno",
+      "custom_title": "Prilagođeni datum",
+      "single_date": "Datum",
+      "date_range": "Raspon datuma"
+    },
+    "metrics": {
+      "country": "Država",
+      "region": "Regija",
+      "city": "Grad",
+      "referer": "Referer",
+      "slug": "Slug",
+      "language": "Jezik",
+      "timezone": "Vremenska zona",
+      "device": "Uređaj",
+      "deviceType": "Vrsta uređaja",
+      "os": "OS",
+      "browser": "Preglednik",
+      "browserType": "Vrsta preglednika"
+    },
+    "time_picker": {
+      "today": "Danas",
+      "last_5m": "Zadnjih 5 minuta",
+      "last_10m": "Zadnjih 10 minuta",
+      "last_30m": "Zadnjih 30 minuta",
+      "last_1h": "Zadnji 1 sat",
+      "last_6h": "Zadnjih 6 sati",
+      "last_12h": "Zadnjih 12 sati",
+      "last_24h": "Zadnja 24 sata"
+    }
+  },
+  "links": {
+    "create": "Kreiraj link",
+    "edit": "Uredi link",
+    "delete_confirm_title": "Jeste li apsolutno sigurni?",
+    "delete_confirm_desc": "Ova radnja se ne može poništiti. Ovo će stvarno izbrisati vaš link s poslužitelja.",
+    "delete_success": "Uspješno izbrisano!",
+    "update_success": "Link uspješno ažuriran",
+    "create_success": "Link uspješno kreiran",
+    "preview_mode_tip": "Link za pregled vrijedi do 5 minuta.",
+    "search_placeholder": "Pretraži linkove...",
+    "no_results": "Nema pronađenih linkova.",
+    "group_title": "Linkovi",
+    "copy_success": "Uspješno kopirano!",
+    "created_at": "Kreirano",
+    "updated_at": "Ažurirano",
+    "expires_at": "Istječe",
+    "no_more": "Nema više linkova",
+    "load_failed": "Učitavanje linkova neuspješno,",
+    "download_qr_code": "Preuzmi QR kod",
+    "sort": {
+      "newest": "Najnovije prvo",
+      "oldest": "Najstarije prvo",
+      "az": "Slug A-Z",
+      "za": "Slug Z-A",
+      "tip": "Iskustvo: Samo za učitane linkove"
+    }
+  }
+}
