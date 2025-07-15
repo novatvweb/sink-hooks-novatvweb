@@ -16,10 +16,12 @@ export function getLocale() {
 }
 
 export function shortDate(unix = 0) {
-  const shortDate = new Intl.DateTimeFormat(undefined, {
-    dateStyle: 'short',
+  const shortDate = new Intl.DateTimeFormat('hr-HR', {
+    day: '2-digit',
+    month: '2-digit',
+    year: '2-digit',
   })
-  return shortDate.format(unix * 1000)
+  return shortDate.format(unix * 1000).replace(/ /g, '')
 }
 
 export function longDate(unix = 0) {
