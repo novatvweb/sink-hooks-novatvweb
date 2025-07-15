@@ -13,7 +13,7 @@ import { cn } from '@/utils'
 
 defineProps<FieldProps>()
 
-const df = new DateFormatter('en-US', {
+const df = new DateFormatter('hr-HR', {
   dateStyle: 'long',
 })
 </script>
